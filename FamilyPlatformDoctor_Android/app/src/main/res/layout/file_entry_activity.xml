@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/baseground">
+    <RelativeLayout
+        android:id="@+id/rl_archives"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlehight_45"
+        android:background="@color/back_shenlan" >
+
+        <Button
+            android:id="@+id/rl_btn_file_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/register_fanhui" />
+
+        <TextView
+            android:id="@+id/rl_tv_file_archives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/dangan_luru"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/re_tv_file_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="@string/chusheng_tizhong"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/re_tv_file_weight_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@id/re_tv_file_weight"
+            android:background="@drawable/touming_bg"
+            android:maxLength="3"
+            android:numeric="integer"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:text="@string/kg"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/re_tv_file_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="@string/chusheng_shenchang"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/re_tv_file_length_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:text="@string/text_cm"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_shenchang01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/re_tv_file_length"
+            android:background="@drawable/touming_bg"
+            android:ems="10"
+            android:maxLength="3"
+            android:numeric="integer"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit1"
+        >
+
+        <TextView
+            android:id="@+id/re_tv_file_birthdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="@string/chusheng_qiqi"
+            android:textColor="#666"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/relat_birth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/re_tv_file_birthdata"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/re_tv_file_Birthhospital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/touming_bg"
+                android:textColor="@color/profiling_text"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/re_tv_file_Birthhospital_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/drop_drow" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/text_yiyuan01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+            android:text="@string/chusheng_yiyuan"
+            android:textColor="#666"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edit_yiyuan01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/text_yiyuan01"
+            android:background="@drawable/touming_bg"
+            android:textColor="@color/profiling_text"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/nextstep2"
+            android:text="@string/xiayibu"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

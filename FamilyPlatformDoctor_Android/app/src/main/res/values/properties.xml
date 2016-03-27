@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="SDcardPath">/Android/data/com.zhonghong.doctor/</string>
+    <string name="DataPath">/data/com.zhonghong.doctor/cache/</string>
+    <string name="PicPath">/Doctor</string>
+    <string name="Doctor">doctor</string>
+    <string name="SCREEN_WIDTH">screen_width</string>
+    <string name="SCREEN_HEIGHT">screen_height</string>
+    <string name="GUIDE_VERSION_CODE">guide_version_code</string>
+    <string name="GUIDE_IS_HAD">guide_is_had</string>
+    <string name="IS_NO_FIRST_INSTALL">is_no_first_install</string>
+
+
+</resources>

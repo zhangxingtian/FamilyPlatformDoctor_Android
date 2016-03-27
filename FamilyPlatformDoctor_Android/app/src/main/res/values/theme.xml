@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 背景 -->
+    <color name="main_color">#3eb3c5</color>
+    <color name="main_simple_color">#bcf0e0</color>
+    <color name="main_deep_color">#1bb488</color>
+    <color name="bg">#ffffff</color>
+    <color name="bg_gray">#f0f0f0</color>
+    <color name="bg_info_green">#21cc99</color>
+
+    <!-- 文字 -->
+    <color name="text_color_gray">#B5B5B5</color>
+    <color name="text_color_dark_gray">#9A9A9A</color>
+    <color name="text_color_black">#5A5A5A</color>
+    <color name="text_color_dark_black">#222222</color>
+
+    <!-- Line -->
+    <color name="line_main_color">#dcdcdc</color>
+
+    <!-- main -->
+    <color name="bg_bottom_blue">#3380ac</color>
+    <color name="bg_bottom_simple_blue">#42a1b7</color>
+    <color name="bg_bottom_green">#29ba81</color>
+    <color name="bg_bottom_sharp_green">#75c041</color>
+
+
+
+    <!-- Activity主题 -->
+    <style name="activityTheme" parent="@android:style/Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="theme_main" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:label">@string/app_name</item>
+        <item name="android:launchMode">singleTask</item>
+        <item name="android:theme">@android:style/Theme.NoTitleBar</item>
+        <item name="android:configChanges">orientation|keyboardHidden</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowSoftInputMode">stateHidden|adjustPan</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/tran</item>　
+        <item name="android:windowIsTranslucent">true</item>　
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimViewshow" parent="@android:style/Theme">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+</resources>

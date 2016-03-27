@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowIndicator">
+        <attr name="count" format="integer"/>
+        <attr name="space" format="dimension"/>
+        <attr name="point_size" format="dimension"/>
+        <attr name="point_selected_color" format="color|reference"/>
+        <attr name="point_normal_color" format="color|reference"/>
+        <attr name="point_radius" format="dimension"/>
+    </declare-styleable>
+
+
+    <!-- FlowLayout start -->
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="orientationa" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="debugDraw" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean"/>
+        <attr name="layout_horizontalSpacing" format="dimension"/>
+        <attr name="layout_verticalSpacing" format="dimension"/>
+    </declare-styleable>
+    <!-- FlowLayout end -->
+    <string-array name="languages">
+        <item>其他</item>
+        <item>大专</item>
+    </string-array>
+</resources>
